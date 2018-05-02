@@ -1,0 +1,14 @@
+Outline
+    I. Format
+        a. Set up a background (CSS)
+        b. Create a title for the game (html & CSS)
+        c. Create a container in which to put the game (html & CSS)
+        d. Write instructions for user (html)
+
+    II. Write js
+        a. Game has word prepared
+        b. User guesses a letter
+        c. Number of guess remaining changes
+        d. Page displays letters already guessed
+        e. Page adds letter to blank list if correct
+        f. Page displays wins & losses

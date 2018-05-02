@@ -1,0 +1,12 @@
+* {
+  text-align: center;
+}
+
+body {
+  background-image: url("../images/madmax.jpg");
+}
+
+h1 {
+  font-family: "Permanent Marker", cursive;
+  color: #f3d24d;
+}
