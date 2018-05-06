@@ -1,55 +1,57 @@
-* {
-  text-align: center;
+body {
+    padding-top: 20px;
+    font-family: 'Permanent Marker', cursive;
+    color: #f3d24d;
+    text-shadow: 0 0 2px black, -1px -1px 2px black, 1px 0 2px black, 1px 1px 2px black;
+    background: url('../images/madmax.jpg') no-repeat;
+    background-size: cover;
 }
 
-body {
-  background-color: #eee;
-  padding-top: 20px;
-  font-family: "Permanent Marker", cursive;
-  color: white;
-  background-image: url("../images/madmax.jpg");
-  background-size: cover;
+.container { 
+    text-align: center;
+    
 }
 
 h1 {
-  font-family: "Permanent Marker", cursive;
-  color: #f3d24d;
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    padding-top: 20px;
+    border-bottom: 10px groove #ecba3c;
+    text-shadow: 0 0 2px black, -1px -1px 2px black, 1px 0 2px black, 1px 1px 2px black;
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-  padding: 5px;
-  background-color: rgba(101, 155, 242, 0.2);
+h4 {
+  font-family: 'Permanent Marker', cursive;
+  text-decoration: underline;
+  padding-top: 5% !important;
+} 
+
+h1,h2,h3,h4,h5,h6 {
+    padding: 5px;
 }
 
-.container {
-  text-align: center;
-}
-
-#title-image,
-#gameover-image,
-#youwin-image {
-  display: block;
-  margin: 0 auto;
+#title, #gameover, #youwin{ 
+    display: block;
+    margin: 0 auto;
 }
 
 #currentWord {
-  letter-spacing: 10px;
+    letter-spacing: 10px;
 }
 
-#pressKeyTryAgain,
-#gameover-image,
-#youwin-image {
+#pressKeyTryAgain, 
+#gameover, 
+#youwin { 
   display: none;
 }
+
 .gameplay-column {
-  padding-top: 20px;
-  border: 3px dashed #fff;
-  text-align: center;
-  margin-top: 20px;
-  min-height: 500px;
-  background-color: rgba(255, 255, 255, 0.3);
+    padding-top: 20px;
+    border: 3px groove #ecba3c;
+    text-align: center;
+    margin-top: 20px;
+    min-height: 500px;
+    background-color: rgba(255, 255, 255, .3);
 }
